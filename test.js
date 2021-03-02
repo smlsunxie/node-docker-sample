@@ -8,7 +8,7 @@ http.createServer(function(request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
 
    // Send the response body "Hello World"
-   response.end('Hello World trunk!\n');
+   response.end('Hello World trunk studio!\n');
 }).listen(8000);
 
 // Print URL for accessing server
